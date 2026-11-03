@@ -23,3 +23,7 @@ O arquivo CNAME por si só não configura DNS ou ativa o GitHub Pages. A publica
 ## Fontes de conteúdo
 
 Biografia, formação, vínculos docentes e seleção de produção: currículo Lattes fornecido pela titular, atualizado em 19/05/2026 e gerado em 03/11/2026. Nome de exibição, linhas de pesquisa e resumo da experiência docente seguem também as informações confirmadas na conversa. Títulos bibliográficos são mantidos no idioma original nas duas versões. Não foram acrescentados DOI, links de artigos ou dados bibliográficos ausentes no documento. Apresentações são identificadas separadamente das publicações. A seleção não pretende reproduzir o currículo integral. Contato direto confirmado pela titular: br.vlopes@usp.br. Fotografia fornecida pela titular e incluída em assets/barbara-lopes.jpeg, preservando o arquivo original. O enquadramento circular é aplicado apenas por CSS.
+
+## Currículos em PDF
+
+Os botões CV (PDF) e CV (EN) disponibilizam currículos acadêmicos resumidos em português e inglês. Os arquivos são estáticos e não exigem servidor ou compilação na publicação. Para atualizar os PDFs após editar a formação, biografia, ensino ou produção, execute `node scripts/generate-cv.cjs` a partir da raiz do repositório, com Playwright e Chromium instalados. A geração reutiliza os textos e traduções do site. Use `CHROMIUM_PATH` se o executável estiver em outro caminho. Revise os PDFs gerados antes de enviar. Os títulos bibliográficos permanecem no idioma original.

@@ -4,3 +4,5 @@ h3{font-size:19px;line-height:1.5;margin:26px 0 10px}.publications,.timeline{lis
 .email-address{overflow-wrap:anywhere}
 
 img.portrait{object-fit:cover;object-position:50% 38%;display:block}
+
+.button-primary{background:var(--accent);border-color:var(--accent);color:#fff}.button-primary:hover{background:#68151c;color:#fff}.cv-downloads{margin-bottom:24px}
