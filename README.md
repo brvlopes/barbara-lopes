@@ -27,3 +27,7 @@ Biografia, formação, vínculos docentes e seleção de produção: currículo 
 ## Currículos em PDF
 
 Os botões CV (PDF) e CV (EN) disponibilizam currículos acadêmicos resumidos em português e inglês. Os arquivos são estáticos e não exigem servidor ou compilação na publicação. Para atualizar os PDFs após editar a formação, biografia, ensino ou produção, execute `node scripts/generate-cv.cjs` a partir da raiz do repositório, com Playwright e Chromium instalados. A geração reutiliza os textos e traduções do site. Use `CHROMIUM_PATH` se o executável estiver em outro caminho. Revise os PDFs gerados antes de enviar. Os títulos bibliográficos permanecem no idioma original.
+
+## Imprensa e divulgação
+
+A seção #imprensa reúne os 15 registros de entrevistas/comentários e os 21 textos em jornais/revistas do Lattes fornecido. Grupos distintos preservam registros de títulos semelhantes sem presumir que são o mesmo conteúdo. Títulos têm pontuação e capitalização normalizadas, mantendo o sentido; o título incompleto “Linha Gerais: O” segue a fonte. Datas somente com ano e veículos não informados são preservados como tais. Os links identificados como Registro no Lattes são referências à fonte, não ao conteúdo da entrevista. Substitua-os pelos links diretos e complete os veículos somente após confirmação da titular ou consulta à publicação original.

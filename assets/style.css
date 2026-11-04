@@ -6,3 +6,7 @@ h3{font-size:19px;line-height:1.5;margin:26px 0 10px}.publications,.timeline{lis
 img.portrait{object-fit:cover;object-position:50% 38%;display:block}
 
 .button-primary{background:var(--accent);border-color:var(--accent);color:#fff}.button-primary:hover{background:#68151c;color:#fff}.cv-downloads{margin-bottom:24px}
+
+.press-table-wrap{overflow-x:auto;max-width:100%;border:1px solid var(--line);border-radius:8px}.press-table{width:100%;min-width:670px;border-collapse:collapse;text-align:left;font-size:15px;line-height:1.6}.press-table caption{text-align:left;padding:14px 18px;font-weight:bold;background:var(--soft)}.press-table th,.press-table td{padding:16px 18px;border-top:1px solid var(--line);vertical-align:top}.press-table thead th{font:600 12px/1.5 Arial,sans-serif;color:var(--muted)}.press-table tbody th{font-weight:normal;width:44%}.press-table time{white-space:nowrap}.press-table td:last-child{min-width:130px}.press-table tbody tr:hover{background:var(--soft)}
+
+.press-group{margin-top:22px}.press-group summary{cursor:pointer;font-size:20px;padding:14px 0;color:var(--accent)}.press-group summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
