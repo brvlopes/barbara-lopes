@@ -31,3 +31,7 @@ Os botões CV (PDF) e CV (EN) disponibilizam currículos acadêmicos resumidos e
 ## Imprensa e divulgação
 
 A seção #imprensa reúne os 15 registros de entrevistas/comentários e os 21 textos em jornais/revistas do Lattes fornecido. Grupos distintos preservam registros de títulos semelhantes sem presumir que são o mesmo conteúdo. Títulos têm pontuação e capitalização normalizadas, mantendo o sentido; o título incompleto “Linha Gerais: O” segue a fonte. Datas somente com ano e veículos não informados são preservados como tais. Os links identificados como Registro no Lattes são referências à fonte, não ao conteúdo da entrevista. Substitua-os pelos links diretos e complete os veículos somente após confirmação da titular ou consulta à publicação original.
+
+## Tipografia e estilos
+
+As famílias Libre Baskerville e Source Sans 3 são hospedadas em `assets/fonts/`, com licenças OFL e proveniência em SOURCES.txt. Fontes, escala, cores, entrelinhas e espaçamento de seções são centralizados nos tokens de `assets/style.css`. As classes `.section-title`, `.record-meta`, `.record-content` e `.press-table` padronizam títulos, registros bibliográficos e tabelas. O tipo de produção acrescentado aos metadados segue o registro no Lattes; o item de 2013 permanece na categoria de artigos em que foi cadastrado, embora a referência mencione anais. Os PDFs existentes permanecem intactos nesta revisão do site. A versão nas URLs do CSS e do JavaScript evita reutilizar o estilo anterior em cache após a publicação.
